@@ -2,18 +2,20 @@
   "name": "reactapplication",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://blaisoft.github.io/create-react-app",
+  "homepage": "https://Blaisoft.github.io/appreact",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "bootstrap": "^4.6.0",
     "gh-pages": "^3.1.0",
     "react": "^16.13.1",
+    "react-bootstrap": "^1.5.2",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "deploy":"npm run build&&gh-pages -d build",
+    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
