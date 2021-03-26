@@ -7,18 +7,22 @@
 }
 
 body{
-    font-family: "Roboto Condesed" sans-serif;
+    font-family: "Roboto Condesed" , sans-serif;
 }
 
 .logo{
     width: 7.25rem;
 
 }
+nav{
+    z-index: 2;
+}
 .bgcolor{
     background-color: #1f2336;
 }
 
 nav a.nav-link{
+    font-size: .8rem;
     font-weight: 500;
     letter-spacing:0.0375rem;
     cursor: pointer;
@@ -43,5 +47,11 @@ nav ul li {
 }
 .navbar-nav > li > a:hover{
     border-bottom: 0.1875rem solid var(--primary-orange);
+
+}
+@media (max-width: 760px) {
+    .navbar-brand{
+        width: 7rem;
+    }
 
 }
